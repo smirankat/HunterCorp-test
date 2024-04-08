@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HunterCorp test</title>
+    <style>
+      #canvas {
+        outline-color: pink;
+        display: block;
+        margin: 50px auto;
+        background: #fffacc;
+      }
+      p {
+        color: #fff;
+        margin: 0 0 16px;
+      }
+      .choose-color {
+        display: none;
+        max-width: 150px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 5px;
+        background: #888;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" tabindex="0" width="640" height="480"></canvas>
+    <div class="choose-color">
+      <p>Choose ball's color:</p>
+      <input type="color" id="ball-color" name="ball-color" value="#f6b73c" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
